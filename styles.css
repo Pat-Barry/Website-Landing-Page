@@ -66,7 +66,13 @@ img {
 
 button {
     background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #3882F6;
 }
+
+
 
 .left {
     display: flex;
@@ -84,18 +90,97 @@ button {
 
 .section-2 {
     background-color: #F9FAF8;
+    padding: 36px 0px 84px 0px;
 }
 
+.section-2 img {
+    width: 100px;
+    height: 100px;
+    margin-top: 54px;
+
+}
+
+.information {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 .section-3 {
-    background-color: #E5E7EB
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 84px 300px 84px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.author {
+    font-size: 24px;
+    color: black;
+    text-align: right;
 }
 
 .section-4 {
     background-color: #F9FAF8;
+    padding: 72px 150px 72px 150px;
+}
+
+.container2 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    padding: 64px 74px 64px 74px;
+}
+
+.call-to-action {
+    font-size: 24px;
+}
+
+.below-call-to-action {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.right-container{
+    height: 48px;
+}
+.right-container button {
+    border: 1px solid #F9FAF8;
 }
 
 .footer {
     background-color: #1F2937; 
+    padding: 36px 0px 36px 0px;
+}
+
+.footer-message {
+    font-size: 18px;
+    color: #F9FAF8;
+    text-align: center;
 }
 
 a:link, a:visited,  a:hover, a:active
